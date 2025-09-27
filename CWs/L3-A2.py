@@ -19,10 +19,8 @@ arraysum(a)
 
 def summ(n):
     if(n<=0):
-        return
+        return 0
     return n + summ(n-1)
 
-print("svhbiuvb")
 summ(4)
-print("kgc8ewvb")
 summ(8)
