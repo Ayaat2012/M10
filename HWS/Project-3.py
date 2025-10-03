@@ -11,3 +11,5 @@ def my_function2(n):
         return
     print("Codingal")
     my_function2(n-1)
+
+print("The recurrence relation of the code is  T(n) = T(n-1) + O(1)")
